@@ -1,9 +1,9 @@
 # SpellChecker
 
-BTree spell checking
-- by Roisin McLoughlin
-- rem99 at georgetown dot edu
-- Last Modified 11/15/16
+###BTree spell checking
+⋅⋅⋅by Roisin McLoughlin
+⋅⋅⋅rem99 at georgetown dot edu
+⋅⋅⋅Last Modified 11/15/16
 
 Spell checks a file against a dictionary file.
 Removes specified words from the dictionary file.
@@ -11,12 +11,12 @@ Removes specified words from the dictionary file.
 --------------------------
 Running the Program
 --------------------------
-g++ LinkedList.cpp BTree.h main.cpp [inputFile] [dictionaryFile] [removalFile]
+`g++ LinkedList.cpp BTree.h main.cpp [inputFile] [dictionaryFile] [removalFile]`
 
 arguements:
-* inputFile		Text file to be spell checked
-* dictionaryFile	Text file containing a lexicon
-* removalFile		Text file containing words to remove from the dictionary
+* `inputFile` - Text file to be spell checked
+* `dictionaryFile` - Text file containing a lexicon
+* `removalFile` - Text file containing words to remove from the dictionary
 
 ------------------------
 Implementation
