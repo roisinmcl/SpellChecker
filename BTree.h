@@ -28,6 +28,7 @@ private:
 public:
     int m = M;
     BTree();
+    ~BTree();
     BTreeNode<M>* root;
     bool search(BTreeNode<M>* root, string data);
     void insert(BTreeNode<M>* root, string data);
@@ -50,6 +51,11 @@ BTreeNode<M>::BTreeNode() {
 template <int M>
 BTree<M>::BTree() {
     root = NULL;
+}
+
+template <int M>
+BTree<M>::~BTree() {
+    delete this->root;
 }
 
 // Searches a BTree for a given string
